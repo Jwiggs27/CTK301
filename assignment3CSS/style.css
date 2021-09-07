@@ -1,0 +1,48 @@
+.specialp {
+  color: #00FF00;
+  background-color: #FFFFFF;
+}
+
+h2 {
+  color: #FFFFFF;
+  background-color: #80CBB3;
+}
+
+h3 {
+  color: #5F7DEF;
+  background-color: #24D400;
+}
+
+h4 {
+  color: #00FFEE;
+  background-color: #FF9CFA;
+}
+
+p {
+  color: #FF7826;
+  background-color: #0D0500;
+}
+
+a {
+ color: #ff0000;
+ text-decoration: none;
+}
+
+a:hover {
+ color: #FCFF00;
+ text-decoration: underline;
+}
+
+a:visited {
+ color: #24C300;
+}
+
+#specialid {
+  color: #00FF00;
+  background-color: #000000;
+}
+
+.ISU {
+  color:#ffffff;
+  background-color: #FF0000;
+}
