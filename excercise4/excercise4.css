@@ -1,0 +1,51 @@
+main {
+  background-color: violet
+}
+
+
+h1{
+  color: white;
+}
+
+a {
+  color: green;
+  text-decoration: none
+}
+
+a:hover {
+  color: red;
+  text-decoration: underline;
+}
+
+h2 {
+  color: blue;
+}
+
+.specialp {
+  color: orange;
+}
+
+h3 {
+  background-color: yellow;
+}
+
+.redparagraph {
+  color: red;
+}
+
+h4 {
+  background-color: green;
+  color: yellow;
+}
+
+.greenparagraph {
+  background-color: lime;
+}
+
+h5 {
+  color: purple;
+}
+
+.lastspan {
+  color: orange;
+}
