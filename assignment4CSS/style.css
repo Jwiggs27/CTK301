@@ -1,0 +1,81 @@
+h1 {
+  color: orange;
+  font-style: italic;
+  font-weight: normal;
+}
+
+h2 {
+  color: orange;
+  font-style: italic;
+  font-weight: normal;
+}
+
+h3 {
+  color: orange;
+  font-style: italic;
+  font-weight: normal;
+}
+
+h4 {
+  color: orange;
+  font-style: italic;
+  font-weight: normal;
+}
+
+p {
+  color: purple;
+}
+
+a {
+ color: #ff0000;
+ text-decoration: none;
+}
+
+a:hover {
+ color: #FCFF00;
+ text-decoration: underline;
+}
+
+a:visited {
+ color: #24C300;
+}
+
+#specialid {
+  color: #00FF00;
+  background-color: #000000;
+}
+
+.ISU {
+  color:#ffffff;
+  background-color: #FF0000;
+}
+
+head {
+  font-family: sans-serif;
+}
+
+body {
+  font-family: sans-serif;
+  background-color: #cccccc;
+  background-image: url(Chargers.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+
+}
+
+.textcenter {
+  text-align: center;
+}
+
+.textjustify {
+  text-align: justify;
+}
+
+.imgbox {
+  border: 5px solid black;
+  padding: 10px;
+  background-color: white;
+  margin: 20px 20px 0px 0px;
+  width: 500px
+
+}
