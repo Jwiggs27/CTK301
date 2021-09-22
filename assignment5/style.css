@@ -1,0 +1,79 @@
+nav p {
+  font: bold 20px Impact;
+  color: white;
+  padding: 0;
+  margin: 0;
+  margin-left: 425px;
+}
+
+h1 {
+  font-family: Impact;
+  font-size: 150px;
+  color: #278BF2;
+  margin-left: 150px;
+
+}
+
+.maintext {
+  color: #278BF2;
+  font-family: sans-serif, arial, Impact;
+  font-size: 10px;
+  margin-top: 500px;
+  margin-left: 100px;
+}
+
+.h1span {
+  color: orange;
+  font: Impact;
+  font-size: 150px;
+}
+
+.midtext {
+  color: #278BF2;
+  font-family: sans-serif, arial, Impact;
+  font-size: 10px;
+}
+
+.screenplay {
+  color: #278BF2;
+  font-family: sans-serif, arial, Impact;
+  font-size: 10px;
+  margin-top: 0px;
+}
+
+.blockimg {
+  position: relative;
+}
+
+a {
+  color: #278BF2;
+  text-decoration: none;
+  font: 20px sans-serif, arial, Impact;
+  font-weight: bold;
+  margin-left: 150px;
+  margin-top: 200px;
+
+}
+
+a:hover {
+  color: orange;
+  text-decoration: underline;
+}
+
+p span {
+  font-weight: bold;
+  color: #278BF2;
+  font-size: 15px;
+}
+
+.pgimg {
+  display: block;
+  margin-left: 200px;
+  padding-top: 30px;
+}
+
+body {
+  width: 800px;
+  background-image: url(Soul.png);
+  background-repeat: no-repeat;
+}
