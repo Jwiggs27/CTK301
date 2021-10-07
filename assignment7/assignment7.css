@@ -1,0 +1,127 @@
+body {background-color: grey;}
+
+#wrapper {
+  margin: 1em auto;
+  padding: 0;
+  width: 960px;
+  background-color: #ffffff;
+  border: 4px solid blue;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+}
+
+header {
+  grid-column: span 12;
+  background-image: linear-gradient(to bottom, #0066ff, #0056ff, #0045ff, #002efd, #0f00f9);
+  color: lightblue;
+  font-family: Helvetica, sans-serif;
+}
+
+h1 a {
+  text-decoration: none;
+  color: lightblue;
+  font-style: italic;
+  margin-left: 40px;
+}
+
+h1 a:hover {
+  color: red;
+}
+
+nav {
+  grid-column: span 12;
+
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-image: linear-gradient(to bottom, #0066ff, #0056ff, #0045ff, #002efd, #0f00f9);
+}
+
+nav li {
+  width: 200px;
+  display: inline-block;
+  padding: 0;
+  margin: 10px;
+}
+
+nav li a {
+  display: block;
+  background-image: linear-gradient(to bottom, #0066ff, #0056ff, #0045ff, #002efd, #0f00f9);
+  padding: 1em;
+  color: lightblue;
+  text-decoration: none;
+  font-family: Helvetica, sans-serif;
+  font-weight: bold;
+  text-align: center;
+
+}
+
+nav li a:hover {
+  background-image: linear-gradient(to bottom, #ff0000, #cf000c, #a1000f, #74000c, #490202);
+}
+
+h2 {
+  color: blue;
+  border-bottom: 3px solid blue;
+  margin-left: 10px;
+  width: 900px;
+}
+
+.welcome {
+  margin-left: 20px;
+}
+
+#boldp {
+  grid-column: span 12;
+  font-weight: bold;
+  font-family: georgia, serif;
+  padding-right: 5px;
+  padding-left: 5px;
+  text-align: justify;
+  margin: 20px 20px 20px 20px;
+}
+
+main {
+  grid-column: span 12;
+  font-family: georgia, serif;
+  margin: 10px 10px 10px 10px;
+}
+
+main img {
+  border: 4px solid blue;
+  float:left;
+  margin-left: 10px;
+}
+
+.tables {
+  border: 4px solid blue;
+  float:right;
+  margin-left: 10px;
+}
+
+.gallery {
+  float:none;
+}
+
+main a {
+  color: red;
+  font-weight: bold;
+}
+
+main a:hover {
+  color: blue;
+  text-decoration: underline;
+}
+
+.footer {
+  margin-left: 40px;
+}
+
+footer {
+  grid-column: span 12;
+  background-color: red;
+  border-top: 4px solid blue;
+}
