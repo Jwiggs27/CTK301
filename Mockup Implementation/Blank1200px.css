@@ -1,0 +1,125 @@
+body {
+  background-color: #999999;
+}
+
+#wrapper {
+  margin: 24px auto;
+  width: 1200px;
+  border: 1px solid black;
+  padding: 24px;
+  background-color: #1A1A1D;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+}
+
+nav {
+  grid-column: span 12;
+  padding-bottom: 50px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  width: 200px;
+  display: inline-block;
+  padding: 0;
+  margin: 10px;
+}
+
+nav li a {
+  display: block;
+  text-decoration: none;
+  font-weight: bold;
+  color: #FFFFFF;
+  font-size: 32px;
+  font-family: sans-serif;
+  border-bottom: 3px solid transparent;
+}
+
+nav li a:hover {
+  border-bottom: 3px solid #950740;
+  width: 100%;
+}
+
+main {
+  grid-column: span 12;
+  font-family: sans-serif;
+  color: #FFFFFF;
+  font-weight: bold;
+  font-size: 52px;
+  padding: 50px;
+}
+
+main img {
+  display: inline;
+  height: 400px;
+}
+
+.inline {
+    display: block;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background: url("DarthJake.jpg") no-repeat top center;
+    background-size: cover;
+    text-align: right;
+    height: 400px;
+    padding-right: 20px;
+}
+
+.Hello {
+  font-weight: normal;
+  font-size: 32px;
+}
+
+.Learnmore {
+  font-weight: bold;
+  font-size: 20px;
+  padding-bottom: 50px;
+}
+
+.learnmore2 {
+  font-weight: bold;
+  font-size: 20px;
+  padding-bottom: 50px;
+}
+
+main a {
+  color: #950740;
+  text-decoration: none;
+}
+
+main a:hover {
+  padding: 10px 20px;
+}
+
+aside {
+  grid-column: span 12;
+  width: 100%;
+  height: 400px;
+  background-color: #950740;
+}
+/*
+.flexwrapper {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+} */
+
+
+
+footer {
+    grid-column: span 12;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+footer a {
+  color: #950740;
+  text-decoration: none;
+}
