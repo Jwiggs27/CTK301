@@ -36,8 +36,10 @@ nav li a {
   font-weight: bold;
   color: #FFFFFF;
   font-size: 32px;
-  font-family: sans-serif;
+  font-family: 'Righteous', cursive;
   border-bottom: 3px solid transparent;
+  transition: border 1.0s;
+
 }
 
 nav li a:hover {
@@ -47,7 +49,7 @@ nav li a:hover {
 
 main {
   grid-column: span 12;
-  font-family: sans-serif;
+  font-family: 'Righteous', cursive;
   color: #FFFFFF;
   font-weight: bold;
   font-size: 52px;
@@ -68,20 +70,16 @@ main img {
     text-align: right;
     height: 400px;
     padding-right: 20px;
+    border-radius: 100px;
 }
 
 .Hello {
   font-weight: normal;
   font-size: 32px;
+
 }
 
 .Learnmore {
-  font-weight: bold;
-  font-size: 20px;
-  padding-bottom: 50px;
-}
-
-.learnmore2 {
   font-weight: bold;
   font-size: 20px;
   padding-bottom: 50px;
@@ -94,6 +92,7 @@ main a {
 
 main a:hover {
   padding: 10px 20px;
+  transition: padding 1.0s;
 }
 
 aside {
@@ -116,10 +115,16 @@ aside {
 footer {
     grid-column: span 12;
     text-align: center;
-    font-family: sans-serif;
+    font-family: 'Righteous', cursive;
 }
 
 footer a {
   color: #950740;
   text-decoration: none;
+  font-size: 18px;
+  transition: color 1.0s;
+}
+
+footer a:hover {
+  color: #FFFFFF;
 }
