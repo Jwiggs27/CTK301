@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Jacob's Portfolio</title>
+	<script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css"/>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.6.1/font/bootstrap-icons.css">
+	<link href="Blank1200px.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+	<div id="wrapper">
+		<!-- These dummy columns are just to show the grid columns, replace with your HTML -->
+		<nav>
+			<ul>
+				<li><a href="FrontPagePortfolio.html">Home</a></li>
+				<li><a href="about.html">About</a></li>
+				<li><a href="workpage.html">Work</a></li>
+			</ul>
+		</nav>
+		<main>
+			<div class="inline">
+			<p class="Hello">Hi, I'm Jacob.</p>
+			<p>Web Developer</p>
+			<p class="Learnmore"><a href="about.html">Learn More<i class="bi bi-caret-right-fill"></i></a></p>
+		</div>
+		<p> What I Do</p>
+		<p class="Learnmore"><a href="workpage.html">Learn More<i class="bi bi-caret-right-fill"></i></a></p>
+		<aside>
+			<div class="carousel">
+  <div class="carousel__slide"><img src="Jake.jpg"></div>
+  <div class="carousel__slide"><img src="CynicalDefinition.jpg"></div>
+  <div class="carousel__slide"><img src="Wall Hive Speaker Idea.jpg"></div>
+</div>
+		</aside>
+		<!-- <div class="flexwrapper">
+			<img class="fleximg" src="Jake.jpg" />
+			<img class="fleximg" src="Jake.jpg" />
+			<img class="fleximg" src="Jake.jpg" />
+			<img class="fleximg" src="Jake.jpg" />
+			<img class="fleximg" src="Jake.jpg" />
+			<img class="fleximg" src="Jake.jpg" />
+			<img class="fleximg" src="Jake.jpg" />
+		</div> -->
+</main>
+	<footer>
+		<a href="https://instagram.com" class="bi bi-instagram" target="_blank"></a>
+		<a href="https://github.com" class="bi bi-github" target="_blank"></a>
+		<a href="https://facebook.com" class="bi bi-facebook" target="_blank"></a>
+
+	</footer>
+	</div>
+	<script>
+	const myCarousel = new Carousel(document.querySelector(".carousel"), {
+  'slidesPerPage' : 1
+});
+</script>
+</body>
+</html>
