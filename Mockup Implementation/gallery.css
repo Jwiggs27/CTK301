@@ -1,11 +1,5 @@
 body {
   background-color: #999999;
-  color: white;
-  font-family: 'Righteous', cursive;
-}
-
-.txtbox {
-  color: black;
 }
 
 #wrapper {
@@ -21,6 +15,7 @@ body {
 nav {
   grid-column: span 12;
 }
+
 
 nav ul {
   list-style-type: none;
@@ -52,10 +47,6 @@ nav li a:hover {
   width: 100%;
 }
 
-.logo {
-  height: 100px;
-}
-
 main {
   grid-column: span 12;
   font-family: 'Righteous', cursive;
@@ -66,7 +57,7 @@ main {
 }
 
 main img {
-  height: 400px;
+  width: 30%;
   float: left;
   margin: 10px;
   border-radius: 10px;
@@ -121,41 +112,10 @@ main a:hover {
 
 aside {
   grid-column: span 12;
-  display: flex;
-  align-content: center;
-  align-items: center;
-  flex-direction: column;
 
 }
 
-form {
-  width: 40%;
-}
 
-.carousel {
-  color: #950740;
-
-  --carousel-button-bg: #fff;
-  --carousel-button-shadow: 0 2px 1px -1px rgb(0 0 0 / 20%), 0 1px 1px 0 rgb(0 0
-          0 / 14%), 0 1px 3px 0 rgb(0 0 0 / 12%);
-
-  --carousel-button-svg-width: 20px;
-  --carousel-button-svg-height: 20px;
-  --carousel-button-svg-stroke-width: 2.5;
-}
-
-.carousel__slide {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
-  width: 80%;
-  height: 540px;
-  margin-right: 32px;
-
-  background-color: #282828;
-  border-radius: 6px;
-}
 /*
 .flexwrapper {
   display: flex;

@@ -3,6 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Jacob's Portfolio</title>
+	<link href="form.css" rel="stylesheet" type="text/css">
 	<link href="Blank1200px.css" rel="stylesheet" type="text/css">
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -20,10 +21,15 @@
 			</ul>
 		</nav>
     <main>
+			<h1>About me</h1>
+			<img src="Jake.jpg"/>
+
+			<p class="aboutme">Hello! My name is Jacob Wiggs. I am a student at<br> Illinois State University majoring in Creative Technologies.</br>In my free time I enjoy designing and developing websites.<br> Check out the rest of my site to learn more!</br></p>
 
 
-    <aside>
-    </aside>
+
+
+
     <!-- <div class="flexwrapper">
       <img class="fleximg" src="Jake.jpg" />
       <img class="fleximg" src="Jake.jpg" />
@@ -34,6 +40,23 @@
       <img class="fleximg" src="Jake.jpg" />
     </div> -->
     </main>
+		<aside>
+		<form
+  action="https://formspree.io/f/mayarron"
+  method="POST"
+>
+  <label>
+    Your email:
+    <input class="txtbox" type="email" name="_replyto">
+  </label>
+  <label>
+    Your message:
+    <textarea class="txtbox" name="message"></textarea>
+  </label>
+  <!-- your other form fields go here -->
+  <button type="submit">Send</button>
+</form>
+</aside>
     <footer>
     <a href="https://instagram.com" class="bi bi-instagram" target="_blank"></a>
     <a href="https://github.com" class="bi bi-github" target="_blank"></a>
