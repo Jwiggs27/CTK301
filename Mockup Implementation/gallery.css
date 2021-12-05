@@ -1,11 +1,10 @@
 body {
-  background-color: #999999;
+  background-color: #1A1A1D;
 }
 
 #wrapper {
   margin: 24px auto;
   width: 1200px;
-  border: 1px solid black;
   padding: 24px;
   background-color: #1A1A1D;
   display: grid;
